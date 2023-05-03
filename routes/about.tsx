@@ -13,7 +13,16 @@ export default function AboutPage() {
 
 
 
-      <p>Will be added later</p>
+          <p class="my-10 text(center 3xl white)">
+            
+            <Counter start={3} />
+          </p>
+
+          <img
+            src="/logo.svg"
+            class="w-32 h-32"
+            alt="the fresh logo: a sliced lemon dripping with juice"
+          />
 
 
     </>

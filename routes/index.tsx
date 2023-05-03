@@ -22,7 +22,6 @@ export default function Home() {
       </div>
 
       <div class="bg-white">
-
         <div class="relative isolate px-6 pt-14 lg:px-8">
           <div
             class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -36,20 +35,28 @@ export default function Home() {
           </div>
           <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-              <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+              {/* <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 Announcing our next round of funding.{" "}
                 <a href="#" class="font-semibold text-indigo-600">
                   <span class="absolute inset-0" aria-hidden="true"></span>Read
                   more <span aria-hidden="true">&rarr;</span>
                 </a>
-              </div>
+              </div> */}
             </div>
             <div class="text-center">
+              <img
+                src="/roboverse.svg"
+                class="w-50 h-50 max-w-screen-xl flex flex-wrap  mx-auto p-1"
+                alt="the fresh logo: a sliced lemon dripping with juice"
+              />
               <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 We are Roboverse
               </h1>
               <p class="mt-6 text-lg leading-8 text-gray-600">
-                We are a team that participated in Robocup Iran Open (junior) 2022 and 2023 and achived 1st place in both events, We've also participated in Robocup Thailand 2022 and achived 2nd place in that event. 
+                We are a team that participated in Robocup Iran Open (junior)
+                2022 and 2023 and achived 1st place in both events, We've also
+                participated in Robocup Thailand 2022 and achived 2nd place in
+                that event.
               </p>
               <div class="mt-10 flex items-center justify-center gap-x-6">
                 <a
