@@ -9,22 +9,13 @@ export default function AboutPage() {
       <Head>
         <title>Roboverse-About Us</title>
       </Head>
-
-      <div class="w-screen h-screen bg-gray-900">
       <Navbar />
 
-          <p class="my-10 text(center 3xl white)">
-            
-            <Counter start={3} />
-          </p>
 
-          <img
-            src="/logo.svg"
-            class="w-32 h-32"
-            alt="the fresh logo: a sliced lemon dripping with juice"
-          />
 
-      </div>
+      <p>Will be added later</p>
+
+
     </>
   );
 }
